@@ -1,0 +1,15 @@
+
+*{
+	box-sizing: border-box;
+}
+
+a{
+	color: #666666;
+	text-decoration: none;
+}
+
+.clear-fix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
